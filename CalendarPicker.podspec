@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Calendar base Swift UI date picker.
+Calendar base Swift UI date picker. Flexible, Modern. Available on iOS 13.0 and later.
                        DESC
 
   s.homepage         = 'https://github.com/BozhkoAlexander/CalendarPicker'
@@ -28,7 +28,7 @@ Calendar base Swift UI date picker.
   s.source           = { :git => 'https://github.com/BozhkoAlexander/CalendarPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
 
   s.source_files = 'CalendarPicker/Classes/**/*'

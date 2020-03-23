@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05C16D8BA63C62F3B10ADEBD78D9BDED /* CalendarPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3A05B355B796EC7785706573661D37 /* CalendarPicker-dummy.m */; };
-		0D14380AAF3C291A8B23CDE9A916360C /* CalendarPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EB1DC9C2DEF33A6BD66E901019A2F1F /* CalendarPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AB4528282C8963AE8B4847447776FC2 /* Pods-CalendarPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A21AC0A59F5B4AAD500448873AE137AF /* Pods-CalendarPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E169F92CA7F6E06FEC24AECCA8C9ED2 /* Pods-CalendarPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B71D7E321DFB1C57A44AE1CE28FC02E /* Pods-CalendarPicker_Example-dummy.m */; };
-		2F062B46259B6506746167083DC4A4CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7AFEC6968A8C3C6DB6566464E08E4E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A5E68EC6BA5ACF60FFA6693AC21B61A6 /* Pods-CalendarPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B02BA1EDF5B59DA01189374A2767C766 /* Pods-CalendarPicker_Tests-dummy.m */; };
+		2AB4528282C8963AE8B4847447776FC2 /* Pods-CalendarPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61D07767DC9A24915AD71C3B70D9E8EF /* Pods-CalendarPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E169F92CA7F6E06FEC24AECCA8C9ED2 /* Pods-CalendarPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8B325B1B09B5AAD34EDB15C5B4829 /* Pods-CalendarPicker_Example-dummy.m */; };
+		542CF5047511C9E600B4FC640EF0376C /* CalendarPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555FC819211AFAB939A786D7387E9D5 /* CalendarPickerController.swift */; };
+		609210412DEADF9D3DB44C3D0F2459C5 /* CalendarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB95C5E1F7A5BB29C507EDC38477352 /* CalendarPickerView.swift */; };
+		62AC0CE1D307AD13A7A88E94CE1802E1 /* CalendarPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFEF0CAE8747D6050E1B59AB6D9558E /* CalendarPicker-dummy.m */; };
+		ABDBF6DC4A7EBC98CA0DE36BA26B983F /* CalendarPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA60579A3713B8B47366D6882BB8B1B0 /* CalendarPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5C66711DF664C4B23F30DBA7DCEDFFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E26B0F2179EB5DD2B7845E9F56E80919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E850321057E482B6A0F2698A0DD8197B /* Pods-CalendarPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D052B2CDED414F8AB5EF8C4AD7C66718 /* Pods-CalendarPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA4EEB3E2428D83100176059 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EEB3C2428D83100176059 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,49 +25,34 @@
 			remoteGlobalIDString = A3037648952C788D4E70E0A14B276675;
 			remoteInfo = CalendarPicker;
 		};
-		A0A6F24FB4E0AF8077F93106742C8FDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 40124FFF3F809FAC94949D602BAA7D60;
-			remoteInfo = "Pods-CalendarPicker_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D11F889136282982FCFD2CD30B231D /* Pods-CalendarPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarPicker_Tests-Info.plist"; sourceTree = "<group>"; };
-		15D326526DD06364AD41644A656B60B2 /* CalendarPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CalendarPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1EB1DC9C2DEF33A6BD66E901019A2F1F /* CalendarPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarPicker-umbrella.h"; sourceTree = "<group>"; };
-		1FFB46D85A327C75B2EFF081BBB554C9 /* Pods-CalendarPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		203533F9F22CB353AF46956A839FA529 /* Pods-CalendarPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2B71D7E321DFB1C57A44AE1CE28FC02E /* Pods-CalendarPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalendarPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		2C101E84971F5338EF7BAAC027156B2C /* Pods-CalendarPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CalendarPicker_Example.modulemap"; sourceTree = "<group>"; };
+		0EB95C5E1F7A5BB29C507EDC38477352 /* CalendarPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarPickerView.swift; path = CalendarPicker/Classes/CalendarPickerView.swift; sourceTree = "<group>"; };
+		1D736EE4E289C7AFB1419E83223CA2A5 /* Pods-CalendarPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalendarPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3757F771ED77AEF201BD2606FAE73D1E /* CalendarPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CalendarPicker-Info.plist"; sourceTree = "<group>"; };
-		490C23CB8220127DBB814BA16186B198 /* Pods_CalendarPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D1C38891729205A6014E96519D1B336 /* Pods-CalendarPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		61D282A4A7C589A41944CB2839B7EC28 /* Pods-CalendarPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarPicker_Example-Info.plist"; sourceTree = "<group>"; };
-		65CA87EE376F5BCDC1CF89C3BC74946F /* CalendarPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalendarPicker.modulemap; sourceTree = "<group>"; };
-		7C058A7245C7139D4ADDAE3BCF6A4E18 /* CalendarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarPicker.release.xcconfig; sourceTree = "<group>"; };
-		7C16C79DDC9EFB0B95273CB3CB1CC5C5 /* Pods-CalendarPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalendarPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		87658FDB00E507DF0B1B3637BDC02242 /* CalendarPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CalendarPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A2372E7938CDC135FD62F01D38C3E0B /* Pods-CalendarPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CalendarPicker_Tests.modulemap"; sourceTree = "<group>"; };
-		90B44650F254A3B9B10790DB186F3213 /* Pods-CalendarPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A21AC0A59F5B4AAD500448873AE137AF /* Pods-CalendarPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalendarPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		AA7EAA340EBEB2169A06869AE123244E /* Pods-CalendarPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalendarPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B02BA1EDF5B59DA01189374A2767C766 /* Pods-CalendarPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalendarPicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		B1C075B44AAA4D890C9E1AB2EFBB97AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B2ACE6640A504DD525771E2DB1C38209 /* CalendarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarPicker.debug.xcconfig; sourceTree = "<group>"; };
-		B3AF7F2D83550F82AF8C2F598E5EDFFB /* Pods-CalendarPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B7DF3A98054EC3FC74CC843A18D68203 /* Pods_CalendarPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB01CB17D45792BA93EA2328F8AE91C9 /* CalendarPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarPicker-prefix.pch"; sourceTree = "<group>"; };
-		C14B30C53BE4585094C902D2985736CE /* Pods-CalendarPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalendarPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CA6998C8276FDD4173BF08ADA61E693C /* Pods-CalendarPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CD1720534967B9C9D92CC2BF1E2C6C27 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D052B2CDED414F8AB5EF8C4AD7C66718 /* Pods-CalendarPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalendarPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EB3A05B355B796EC7785706573661D37 /* CalendarPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarPicker-dummy.m"; sourceTree = "<group>"; };
-		FA4EEB3C2428D83100176059 /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		3AD8B325B1B09B5AAD34EDB15C5B4829 /* Pods-CalendarPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalendarPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		3F8BCA75D9A61651CAE3A89C84174B84 /* CalendarPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarPicker.debug.xcconfig; sourceTree = "<group>"; };
+		46ADFBA91FBAAC5206A8C4E494F844BB /* CalendarPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CalendarPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4BFC31A770958B47FAA9D67E7ED0F850 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4DFEF0CAE8747D6050E1B59AB6D9558E /* CalendarPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CalendarPicker-dummy.m"; sourceTree = "<group>"; };
+		5555FC819211AFAB939A786D7387E9D5 /* CalendarPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarPickerController.swift; path = CalendarPicker/Classes/CalendarPickerController.swift; sourceTree = "<group>"; };
+		61D07767DC9A24915AD71C3B70D9E8EF /* Pods-CalendarPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalendarPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		62D13AC6B18E75D8C07A10B75AC007DA /* Pods-CalendarPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CalendarPicker_Example.modulemap"; sourceTree = "<group>"; };
+		65CAE0A3FCBBE0F468D2107CA635494C /* Pods-CalendarPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalendarPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68CC3B68DE13ABD9577EA660B329D571 /* Pods-CalendarPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		87658FDB00E507DF0B1B3637BDC02242 /* CalendarPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CalendarPicker.framework; path = CalendarPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		895C13EA1B9B218CAF9D3A28F432D01A /* Pods-CalendarPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		97ED5805A99DFE53B61385176AE4AF01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7DF3A98054EC3FC74CC843A18D68203 /* Pods_CalendarPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CalendarPicker_Example.framework; path = "Pods-CalendarPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDB3C9CA5A8EBEDBBEB91591592558E /* CalendarPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CalendarPicker-Info.plist"; sourceTree = "<group>"; };
+		CCDE7CC0608E778234979E11E40651E1 /* Pods-CalendarPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalendarPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDEC46A499D918785DC2E9C04D3126F6 /* CalendarPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CalendarPicker.release.xcconfig; sourceTree = "<group>"; };
+		D4B6D2032F7F5F7628D8F9093689A9DC /* Pods-CalendarPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalendarPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E26C7B4803B6F284EDD8B2058E66B39C /* CalendarPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CalendarPicker.modulemap; sourceTree = "<group>"; };
+		EA60579A3713B8B47366D6882BB8B1B0 /* CalendarPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarPicker-umbrella.h"; sourceTree = "<group>"; };
+		F92CB1792DC4C272FCEE7F0FA15EEF2C /* CalendarPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CalendarPicker-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,87 +64,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A70076458E4D20F38CE757636EB8D6E8 /* Frameworks */ = {
+		44FE4811361CCE6D985498C13B19EF2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFEC6968A8C3C6DB6566464E08E4E0B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1C4A4E9018F651312283D6D47995905 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F062B46259B6506746167083DC4A4CF /* Foundation.framework in Frameworks */,
+				D5C66711DF664C4B23F30DBA7DCEDFFE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		404B49B9FE17366ACF9E6087EF9D946C /* CalendarPicker */ = {
-			isa = PBXGroup;
-			children = (
-				FA4EEB3A2428D83100176059 /* Classes */,
-				6AAB8EA7D5E28E727DE00F96F1F1ECA6 /* Pod */,
-				DF64D5FEBD31450CE521C34C03E16740 /* Support Files */,
-			);
-			name = CalendarPicker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6399F03CDA7D631303F7E188EB142E8A /* Pods-CalendarPicker_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8A2372E7938CDC135FD62F01D38C3E0B /* Pods-CalendarPicker_Tests.modulemap */,
-				7C16C79DDC9EFB0B95273CB3CB1CC5C5 /* Pods-CalendarPicker_Tests-acknowledgements.markdown */,
-				4D1C38891729205A6014E96519D1B336 /* Pods-CalendarPicker_Tests-acknowledgements.plist */,
-				B02BA1EDF5B59DA01189374A2767C766 /* Pods-CalendarPicker_Tests-dummy.m */,
-				06D11F889136282982FCFD2CD30B231D /* Pods-CalendarPicker_Tests-Info.plist */,
-				D052B2CDED414F8AB5EF8C4AD7C66718 /* Pods-CalendarPicker_Tests-umbrella.h */,
-				90B44650F254A3B9B10790DB186F3213 /* Pods-CalendarPicker_Tests.debug.xcconfig */,
-				203533F9F22CB353AF46956A839FA529 /* Pods-CalendarPicker_Tests.release.xcconfig */,
-			);
-			name = "Pods-CalendarPicker_Tests";
-			path = "Target Support Files/Pods-CalendarPicker_Tests";
-			sourceTree = "<group>";
-		};
-		6AAB8EA7D5E28E727DE00F96F1F1ECA6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				15D326526DD06364AD41644A656B60B2 /* CalendarPicker.podspec */,
-				CD1720534967B9C9D92CC2BF1E2C6C27 /* LICENSE */,
-				B1C075B44AAA4D890C9E1AB2EFBB97AA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		AB7F972359810628560D652BBE03D82C /* Products */ = {
+		16A74ABD67FE499CB0F8CAE950CEDC71 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				87658FDB00E507DF0B1B3637BDC02242 /* CalendarPicker.framework */,
 				B7DF3A98054EC3FC74CC843A18D68203 /* Pods_CalendarPicker_Example.framework */,
-				490C23CB8220127DBB814BA16186B198 /* Pods_CalendarPicker_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB22902F83412CCD93D07D776808AA7D /* Pods-CalendarPicker_Example */ = {
+		339B7D2825A60911B625379DACF14CCE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2C101E84971F5338EF7BAAC027156B2C /* Pods-CalendarPicker_Example.modulemap */,
-				AA7EAA340EBEB2169A06869AE123244E /* Pods-CalendarPicker_Example-acknowledgements.markdown */,
-				1FFB46D85A327C75B2EFF081BBB554C9 /* Pods-CalendarPicker_Example-acknowledgements.plist */,
-				2B71D7E321DFB1C57A44AE1CE28FC02E /* Pods-CalendarPicker_Example-dummy.m */,
-				C14B30C53BE4585094C902D2985736CE /* Pods-CalendarPicker_Example-frameworks.sh */,
-				61D282A4A7C589A41944CB2839B7EC28 /* Pods-CalendarPicker_Example-Info.plist */,
-				A21AC0A59F5B4AAD500448873AE137AF /* Pods-CalendarPicker_Example-umbrella.h */,
-				CA6998C8276FDD4173BF08ADA61E693C /* Pods-CalendarPicker_Example.debug.xcconfig */,
-				B3AF7F2D83550F82AF8C2F598E5EDFFB /* Pods-CalendarPicker_Example.release.xcconfig */,
+				E26C7B4803B6F284EDD8B2058E66B39C /* CalendarPicker.modulemap */,
+				4DFEF0CAE8747D6050E1B59AB6D9558E /* CalendarPicker-dummy.m */,
+				BDDB3C9CA5A8EBEDBBEB91591592558E /* CalendarPicker-Info.plist */,
+				F92CB1792DC4C272FCEE7F0FA15EEF2C /* CalendarPicker-prefix.pch */,
+				EA60579A3713B8B47366D6882BB8B1B0 /* CalendarPicker-umbrella.h */,
+				3F8BCA75D9A61651CAE3A89C84174B84 /* CalendarPicker.debug.xcconfig */,
+				CDEC46A499D918785DC2E9C04D3126F6 /* CalendarPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CalendarPicker";
+			sourceTree = "<group>";
+		};
+		7C8B43104249AF2FFC2CFDE46E577F17 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46ADFBA91FBAAC5206A8C4E494F844BB /* CalendarPicker.podspec */,
+				4BFC31A770958B47FAA9D67E7ED0F850 /* LICENSE */,
+				97ED5805A99DFE53B61385176AE4AF01 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		82C88F1ABEE2CF0B69359D48C9A96862 /* Pods-CalendarPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				62D13AC6B18E75D8C07A10B75AC007DA /* Pods-CalendarPicker_Example.modulemap */,
+				65CAE0A3FCBBE0F468D2107CA635494C /* Pods-CalendarPicker_Example-acknowledgements.markdown */,
+				CCDE7CC0608E778234979E11E40651E1 /* Pods-CalendarPicker_Example-acknowledgements.plist */,
+				3AD8B325B1B09B5AAD34EDB15C5B4829 /* Pods-CalendarPicker_Example-dummy.m */,
+				1D736EE4E289C7AFB1419E83223CA2A5 /* Pods-CalendarPicker_Example-frameworks.sh */,
+				895C13EA1B9B218CAF9D3A28F432D01A /* Pods-CalendarPicker_Example-Info.plist */,
+				61D07767DC9A24915AD71C3B70D9E8EF /* Pods-CalendarPicker_Example-umbrella.h */,
+				68CC3B68DE13ABD9577EA660B329D571 /* Pods-CalendarPicker_Example.debug.xcconfig */,
+				D4B6D2032F7F5F7628D8F9093689A9DC /* Pods-CalendarPicker_Example.release.xcconfig */,
 			);
 			name = "Pods-CalendarPicker_Example";
 			path = "Target Support Files/Pods-CalendarPicker_Example";
+			sourceTree = "<group>";
+		};
+		8575101AF1D53FB1AC8604E01D51C5C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD97430714C7192E270C621AA0D5D896 /* CalendarPicker */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -172,23 +142,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C802B60D6E6807F54D519A52DE1775CE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB22902F83412CCD93D07D776808AA7D /* Pods-CalendarPicker_Example */,
-				6399F03CDA7D631303F7E188EB142E8A /* Pods-CalendarPicker_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				FA393C763C0DC31DB6903AAB8922ABE2 /* Development Pods */,
+				8575101AF1D53FB1AC8604E01D51C5C4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AB7F972359810628560D652BBE03D82C /* Products */,
-				C802B60D6E6807F54D519A52DE1775CE /* Targets Support Files */,
+				16A74ABD67FE499CB0F8CAE950CEDC71 /* Products */,
+				DD27052F8D89A33A9B39BCD944B733E8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,62 +161,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF64D5FEBD31450CE521C34C03E16740 /* Support Files */ = {
+		DD27052F8D89A33A9B39BCD944B733E8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				65CA87EE376F5BCDC1CF89C3BC74946F /* CalendarPicker.modulemap */,
-				EB3A05B355B796EC7785706573661D37 /* CalendarPicker-dummy.m */,
-				3757F771ED77AEF201BD2606FAE73D1E /* CalendarPicker-Info.plist */,
-				BB01CB17D45792BA93EA2328F8AE91C9 /* CalendarPicker-prefix.pch */,
-				1EB1DC9C2DEF33A6BD66E901019A2F1F /* CalendarPicker-umbrella.h */,
-				B2ACE6640A504DD525771E2DB1C38209 /* CalendarPicker.debug.xcconfig */,
-				7C058A7245C7139D4ADDAE3BCF6A4E18 /* CalendarPicker.release.xcconfig */,
+				82C88F1ABEE2CF0B69359D48C9A96862 /* Pods-CalendarPicker_Example */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CalendarPicker";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FA393C763C0DC31DB6903AAB8922ABE2 /* Development Pods */ = {
+		FD97430714C7192E270C621AA0D5D896 /* CalendarPicker */ = {
 			isa = PBXGroup;
 			children = (
-				404B49B9FE17366ACF9E6087EF9D946C /* CalendarPicker */,
+				5555FC819211AFAB939A786D7387E9D5 /* CalendarPickerController.swift */,
+				0EB95C5E1F7A5BB29C507EDC38477352 /* CalendarPickerView.swift */,
+				7C8B43104249AF2FFC2CFDE46E577F17 /* Pod */,
+				339B7D2825A60911B625379DACF14CCE /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FA4EEB3A2428D83100176059 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FA4EEB3C2428D83100176059 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = CalendarPicker/Classes;
+			name = CalendarPicker;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		56DB626FBB194C76A476326A74A5C3B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDBF6DC4A7EBC98CA0DE36BA26B983F /* CalendarPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		781783502348C0A73D087FBC1AB43A74 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2AB4528282C8963AE8B4847447776FC2 /* Pods-CalendarPicker_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AADC8556A675858ECB0CEB430BE2602 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D14380AAF3C291A8B23CDE9A916360C /* CalendarPicker-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD6597878D5D5BE6149D9997BA442D57 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E850321057E482B6A0F2698A0DD8197B /* Pods-CalendarPicker_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,33 +222,14 @@
 			productReference = B7DF3A98054EC3FC74CC843A18D68203 /* Pods_CalendarPicker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		43792987E52555BEF75E848C45862715 /* Pods-CalendarPicker_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FE8AB306BBA9B16B3019546695DD03EE /* Build configuration list for PBXNativeTarget "Pods-CalendarPicker_Tests" */;
-			buildPhases = (
-				AD6597878D5D5BE6149D9997BA442D57 /* Headers */,
-				DB082AB3C1565F784888EA1EA0E1040B /* Sources */,
-				A70076458E4D20F38CE757636EB8D6E8 /* Frameworks */,
-				1108A4FF616183E9BBEBCC1C16642419 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9ACF3C5FE73F903D9A202D2639C23E51 /* PBXTargetDependency */,
-			);
-			name = "Pods-CalendarPicker_Tests";
-			productName = "Pods-CalendarPicker_Tests";
-			productReference = 490C23CB8220127DBB814BA16186B198 /* Pods_CalendarPicker_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A3037648952C788D4E70E0A14B276675 /* CalendarPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 152A7F6B4142664544E574EA7A9768DD /* Build configuration list for PBXNativeTarget "CalendarPicker" */;
+			buildConfigurationList = AA007D585951B6D229B0E992BE024B46 /* Build configuration list for PBXNativeTarget "CalendarPicker" */;
 			buildPhases = (
-				9AADC8556A675858ECB0CEB430BE2602 /* Headers */,
-				B5FF1DD878E10E7388954984EBA52DA2 /* Sources */,
-				D1C4A4E9018F651312283D6D47995905 /* Frameworks */,
-				2F0ED732B6B864FF8638393DF909E692 /* Resources */,
+				56DB626FBB194C76A476326A74A5C3B9 /* Headers */,
+				A8CFFB2F704B7F750678F895C7B61068 /* Sources */,
+				44FE4811361CCE6D985498C13B19EF2E /* Frameworks */,
+				AF70A74D72B7DB274418912A7C309C24 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,33 +258,25 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AB7F972359810628560D652BBE03D82C /* Products */;
+			productRefGroup = 16A74ABD67FE499CB0F8CAE950CEDC71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A3037648952C788D4E70E0A14B276675 /* CalendarPicker */,
 				40124FFF3F809FAC94949D602BAA7D60 /* Pods-CalendarPicker_Example */,
-				43792987E52555BEF75E848C45862715 /* Pods-CalendarPicker_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1108A4FF616183E9BBEBCC1C16642419 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2F0ED732B6B864FF8638393DF909E692 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		58A56CE4D4E255BD92535AE010FDDE7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF70A74D72B7DB274418912A7C309C24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -380,20 +294,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5FF1DD878E10E7388954984EBA52DA2 /* Sources */ = {
+		A8CFFB2F704B7F750678F895C7B61068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA4EEB3E2428D83100176059 /* ReplaceMe.swift in Sources */,
-				05C16D8BA63C62F3B10ADEBD78D9BDED /* CalendarPicker-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB082AB3C1565F784888EA1EA0E1040B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A5E68EC6BA5ACF60FFA6693AC21B61A6 /* Pods-CalendarPicker_Tests-dummy.m in Sources */,
+				62AC0CE1D307AD13A7A88E94CE1802E1 /* CalendarPicker-dummy.m in Sources */,
+				542CF5047511C9E600B4FC640EF0376C /* CalendarPickerController.swift in Sources */,
+				609210412DEADF9D3DB44C3D0F2459C5 /* CalendarPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,51 +313,12 @@
 			target = A3037648952C788D4E70E0A14B276675 /* CalendarPicker */;
 			targetProxy = 62710C102DE02DD19CC88C94C2652605 /* PBXContainerItemProxy */;
 		};
-		9ACF3C5FE73F903D9A202D2639C23E51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CalendarPicker_Example";
-			target = 40124FFF3F809FAC94949D602BAA7D60 /* Pods-CalendarPicker_Example */;
-			targetProxy = A0A6F24FB4E0AF8077F93106742C8FDB /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1DAD82BE2AD85E5625733B6D73AC6820 /* Debug */ = {
+		70CC4EC4FC32F9C5B3EF06687472A96B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90B44650F254A3B9B10790DB186F3213 /* Pods-CalendarPicker_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CalendarPicker_Tests/Pods-CalendarPicker_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CalendarPicker_Tests/Pods-CalendarPicker_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		310F0B3D5F7C074ACE4D7090969C42C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C058A7245C7139D4ADDAE3BCF6A4E18 /* CalendarPicker.release.xcconfig */;
+			baseConfigurationReference = CDEC46A499D918785DC2E9C04D3126F6 /* CalendarPicker.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -464,7 +332,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CalendarPicker/CalendarPicker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CalendarPicker/CalendarPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CalendarPicker/CalendarPicker.modulemap";
 				PRODUCT_MODULE_NAME = CalendarPicker;
@@ -472,7 +340,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -480,9 +348,9 @@
 			};
 			name = Release;
 		};
-		5426CB7FE65A6EEC9D6E76DCED95DB4A /* Release */ = {
+		79E21D4C211CD1D9270F8C3F9974045D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 203533F9F22CB353AF46956A839FA529 /* Pods-CalendarPicker_Tests.release.xcconfig */;
+			baseConfigurationReference = D4B6D2032F7F5F7628D8F9093689A9DC /* Pods-CalendarPicker_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -494,12 +362,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CalendarPicker_Tests/Pods-CalendarPicker_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CalendarPicker_Example/Pods-CalendarPicker_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CalendarPicker_Tests/Pods-CalendarPicker_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CalendarPicker_Example/Pods-CalendarPicker_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -514,7 +382,7 @@
 			};
 			name = Release;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -562,20 +430,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B83DA53667A9990D1DB9A63FA94D8910 /* Release */ = {
+		8FD388282DF2D0AA441041A468C6F5A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3AF7F2D83550F82AF8C2F598E5EDFFB /* Pods-CalendarPicker_Example.release.xcconfig */;
+			baseConfigurationReference = 68CC3B68DE13ABD9577EA660B329D571 /* Pods-CalendarPicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -589,7 +458,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CalendarPicker_Example/Pods-CalendarPicker_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CalendarPicker_Example/Pods-CalendarPicker_Example.modulemap";
@@ -601,13 +470,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -658,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -671,9 +539,9 @@
 			};
 			name = Debug;
 		};
-		D640E7DAA993DDA8C2DE1240B3F4C964 /* Debug */ = {
+		D04A76775DB581FA45A5C7F17203FC37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2ACE6640A504DD525771E2DB1C38209 /* CalendarPicker.debug.xcconfig */;
+			baseConfigurationReference = 3F8BCA75D9A61651CAE3A89C84174B84 /* CalendarPicker.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -687,7 +555,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CalendarPicker/CalendarPicker-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CalendarPicker/CalendarPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CalendarPicker/CalendarPicker.modulemap";
 				PRODUCT_MODULE_NAME = CalendarPicker;
@@ -695,40 +563,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ECCA149FFF6BC77B6B41695E2F0185D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA6998C8276FDD4173BF08ADA61E693C /* Pods-CalendarPicker_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CalendarPicker_Example/Pods-CalendarPicker_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CalendarPicker_Example/Pods-CalendarPicker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -738,20 +573,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		152A7F6B4142664544E574EA7A9768DD /* Build configuration list for PBXNativeTarget "CalendarPicker" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D640E7DAA993DDA8C2DE1240B3F4C964 /* Debug */,
-				310F0B3D5F7C074ACE4D7090969C42C4 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		AA007D585951B6D229B0E992BE024B46 /* Build configuration list for PBXNativeTarget "CalendarPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				D04A76775DB581FA45A5C7F17203FC37 /* Debug */,
+				70CC4EC4FC32F9C5B3EF06687472A96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,17 +594,8 @@
 		B2855C1CF01F5C08584AE4969F796418 /* Build configuration list for PBXNativeTarget "Pods-CalendarPicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECCA149FFF6BC77B6B41695E2F0185D6 /* Debug */,
-				B83DA53667A9990D1DB9A63FA94D8910 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE8AB306BBA9B16B3019546695DD03EE /* Build configuration list for PBXNativeTarget "Pods-CalendarPicker_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DAD82BE2AD85E5625733B6D73AC6820 /* Debug */,
-				5426CB7FE65A6EEC9D6E76DCED95DB4A /* Release */,
+				8FD388282DF2D0AA441041A468C6F5A4 /* Debug */,
+				79E21D4C211CD1D9270F8C3F9974045D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

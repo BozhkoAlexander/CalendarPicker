@@ -1,11 +1,7 @@
+platform :ios, '9.0'
 use_frameworks!
 
 target 'CalendarPicker_Example' do
   pod 'CalendarPicker', :path => '../'
-
-  target 'CalendarPicker_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end

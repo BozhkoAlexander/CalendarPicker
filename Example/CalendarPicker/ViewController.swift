@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CalendarPicker
 
 class ViewController: UIViewController {
 
@@ -18,6 +19,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func chooseDatePressed(_ sender: UIButton) {
+        if #available(iOS 13.0, *) {
+            let vc = CalendarPickerController()
+            present(vc, animated: true)
+        }
     }
 
 }
