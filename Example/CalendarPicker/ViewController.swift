@@ -23,7 +23,8 @@ class ViewController: UIViewController {
     
     @IBAction func chooseDatePressed(_ sender: UIButton) {
         if #available(iOS 13.0, *) {
-            let vc = CalendarPickerController()
+            let selectedDate = Date()
+            let vc = CalendarPickerController([Date()], selectedDate: selectedDate)
             present(vc, animated: true)
         }
     }

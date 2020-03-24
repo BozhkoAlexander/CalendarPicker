@@ -9,14 +9,21 @@ import SwiftUI
 
 @available(iOS 13.0, *)
 public struct CalendarPickerView: View {
+    
+    @State var model: CalendarModel
+    
     public var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            CalendarGroup(model: model)
+        }
+        .padding()
     }
+    
 }
 
 @available(iOS 13.0, *)
 struct CalendarPickerView_Previews: PreviewProvider {
     static var previews: some View {
-        CalendarPickerView()
+        CalendarPickerView(model: CalendarModel(selectedDate: Date()))
     }
 }
